@@ -7,11 +7,7 @@ function split(){
 
  const noOfPeople= document.querySelector("noOfPeopleson").value;
 
- let totalbill=parseInt(item1)+
- let totalbill=parseInt(item2)+
- let totalbill=parseInt(item3)+
- let totalbill=parseInt(item4)+
- let totalbill=parseInt(item5)+
+ let totalbill=parseInt(item1)+parseInt(item2)+parseInt(item3)+parseInt(item4)+parseInt(item5);
 
  let eachbill = totalbill/noOfPeople;
  document.querySelector("#totalbill").innerHTMl=totalbill;
